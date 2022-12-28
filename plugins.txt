@@ -1,21 +1,63 @@
 ant:latest
-antisamy-markup-formatter:latest
+apache-httpcomponents-client-4-api
+#antisamy-markup-formatter:latest
 authorize-project:latest
+bootstrap5-api:latest
+bouncycastle-api:latest
+branch-api:latest
 build-timeout:latest
-cloudbees-folder:latest
+caffeine-api:latest
+checks-api:latest
+cloudbees-folder:latest # Folders Plugin
+command-launcher:latest
+commons-lang3-api:latest
+commons-text-api:latest
 configuration-as-code:latest
 credentials-binding:latest
+credentials:latest
+display-url-api:latest
+durable-task:latest
+echarts-api:latest
 email-ext:latest
+font-awesome-api:latest
+git-client:latest
 git:latest
+github-api:latest
 github-branch-source:latest
+github:latest
 gradle:latest
 ldap:latest
 mailer:latest
 matrix-auth:latest
 pam-auth:latest
+pipeline-graph-analysis:latest
 pipeline-github-lib:latest
 pipeline-stage-view:latest
+pipeline-build-step:latest # Pipeline: Build Step
+pipeline-model-definition:latest # Pipeline: Declarative
+pipeline-model-extensions:latest # Pipeline: Declarative Extension Points API
+pipeline-github-lib:latest # Pipeline: GitHub Groovy Libraries
+pipeline-groovy-lib:latest # Pipeline: Groovy Libraries
+pipeline-input-step:latest # Pipeline: Input Step
+pipeline-milestone-step:latest
+pipeline-model-api:latest 
+pipeline-rest-api:latest
+pipeline-stage-step:latest
+pipeline-stage-view:latest
+plain-credentials:latest 
+plugin-util-api:latest
+scm-api:latest
+script-security:latest
 ssh-slaves:latest
 timestamper:latest
-workflow-aggregator:latest
+workflow-aggregator:latest # Pipeline
+workflow-api:latest # Pipeline: API
+workflow-basic-steps:latest # Pipeline Basic Steps
+workflow-cps:latest # Pipeline: Groovy
+workflow-job:latest # Pipeline: Job
+workflow-multibranch:latest # Pipeline: Multibranch
+workflow-durable-task-step:latest # Pipeline: Nodes and Processes
+workflow-scm-step:latest # Pipeline: SCM Step
+workflow-step-api:latest # Pipeline: Step API
+workflow-support:latest # Pipeline: Supporting APIs
 ws-cleanup:latest
