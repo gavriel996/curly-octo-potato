@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@839.v35e2736cfd5c">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@3583.v4f58de0d78d5">
+    <parentIds>
+      <string>9</string>
+    </parentIds>
+    <id>10</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.EnvStep</descriptorId>
+  </node>
+  <actions>
+    <s.a.LogStorageAction/>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@3583.v4f58de0d78d5">
+      <arguments>
+        <entry>
+          <string>overrides</string>
+          <list>
+            <string>GIT_BRANCH=origin/master</string>
+            <string>GIT_COMMIT=701e79269375330c93493a25ada66aa80e94603c</string>
+            <string>GIT_PREVIOUS_COMMIT=898b939627a19e1ca14f3a0001043723eb25c6a8</string>
+            <string>GIT_PREVIOUS_SUCCESSFUL_COMMIT=898b939627a19e1ca14f3a0001043723eb25c6a8</string>
+            <string>GIT_URL=https://github.com/gavriel996/curly-octo-potato.git</string>
+          </list>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1200.v8005c684b_a_c6">
+      <startTime>1672255742623</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

@@ -1,0 +1,25 @@
+Started by user [8mha:////4K3lcgYp4okbt3c+6VIikchdMaJ5qXJWbrdDIFF5nritAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/jenkins-github-integration
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/gavriel996/curly-octo-potato.git
+ > git init /var/jenkins_home/workspace/jenkins-github-integration # timeout=10
+Fetching upstream changes from https://github.com/gavriel996/curly-octo-potato.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.38.1'
+ > git fetch --tags --force --progress -- https://github.com/gavriel996/curly-octo-potato.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/gavriel996/curly-octo-potato.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 9189ccb611368392e8f3ffac8e34c64719dd60ff (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9189ccb611368392e8f3ffac8e34c64719dd60ff # timeout=10
+Commit message: "basic jenkins configuration and README update (#1)"
+First time build. Skipping changelog.
+[jenkins-github-integration] $ /bin/sh -xe /tmp/jenkins9145493189796847724.sh
++ echo 'Hello World, this is working'
+Hello World, this is working
+Finished: SUCCESS

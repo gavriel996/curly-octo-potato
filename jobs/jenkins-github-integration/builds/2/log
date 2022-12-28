@@ -1,0 +1,22 @@
+Started by GitHub push by gavriel996
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/jenkins-github-integration
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/jenkins-github-integration/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/gavriel996/curly-octo-potato.git # timeout=10
+Fetching upstream changes from https://github.com/gavriel996/curly-octo-potato.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.38.1'
+ > git fetch --tags --force --progress -- https://github.com/gavriel996/curly-octo-potato.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 270a9798afb98498a9d12e377d895c8a4f16ed52 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 270a9798afb98498a9d12e377d895c8a4f16ed52 # timeout=10
+Commit message: "tiny testerinio (#3)"
+ > git rev-list --no-walk 9189ccb611368392e8f3ffac8e34c64719dd60ff # timeout=10
+[jenkins-github-integration] $ /bin/sh -xe /tmp/jenkins3585938565405047906.sh
++ echo 'Hello World, this is working'
+Hello World, this is working
+Finished: SUCCESS
