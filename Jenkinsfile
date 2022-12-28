@@ -1,9 +1,9 @@
 pipeline {
     agent any
-    environment {
+    //environment {
         //TEST_ID  = credentials('jenkins-secret-test-id')
         //TEST_KEY = credentials('jenkins-secret-test-key')
-    }
+    //}
     stages {
         stage('Preinstall') {
             steps {
@@ -13,9 +13,9 @@ pipeline {
             }
         }
 	stage('Run python script') {
-	    environment {
+	    //environment {
                 //IN_STAGE_TEST  = credentials('jenkins-secret-in-stage-test')
-            }
+            //}
             steps {
                 echo 'Preinstalling...'
                 sh 'python3 main.py'
