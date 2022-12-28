@@ -1,4 +1,4 @@
-basicPipeline {
+pipeline {
     agent any
     environment {
         //TEST_ID  = credentials('jenkins-secret-test-id')
