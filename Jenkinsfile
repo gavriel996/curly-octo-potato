@@ -9,7 +9,8 @@ pipeline {
             steps {
 		echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
                 echo 'Preinstalling...'
-                sh 'apk add --no-cache python3 py3-pip'
+		sh 'whoami'
+                sh 'sudo apk add --no-cache python3 py3-pip'
             }
         }
 	stage('Run python script') {

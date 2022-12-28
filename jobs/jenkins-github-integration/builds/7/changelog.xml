@@ -1,0 +1,10 @@
+commit 5cb0cb0567f308d47680c7fff9fb97427cdd85b2
+tree 1b62fdb7fa7a165a7ad49e0b1709798aa964c076
+parent a925064ca9e20f0e2b2fbe8c4c89dc358372844d
+author Gabriel Cohen <gabrielcohen@Gabriels-MacBook-Pro.local> 2022-12-28 12:48:39 +0200
+committer Gabriel Cohen <gabrielcohen@Gabriels-MacBook-Pro.local> 2022-12-28 12:48:39 +0200
+
+    test for static one
+
+
+:100644 100644 45fc2e92c420f9d76442dca9b7b5816b1f591b55 80a664819c81363ccf1f900578ee0c0c31d8f8cb M	README.md

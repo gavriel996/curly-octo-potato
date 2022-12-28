@@ -1,0 +1,11 @@
+commit 701e79269375330c93493a25ada66aa80e94603c
+tree eb3aafa65529f4bc8f455e9f6dac4e31c3e78e59
+parent 898b939627a19e1ca14f3a0001043723eb25c6a8
+author Gabriel Cohen <gavrielcohend@gmail.com> 2022-12-28 21:28:48 +0200
+committer GitHub <noreply@github.com> 2022-12-28 21:28:48 +0200
+
+    new plugins (#7)
+    
+    Co-authored-by: Gabriel Cohen <gabrielcohen@Gabriels-MacBook-Pro.local>
+
+:100644 100644 233d8a26a3c712e124741dcb8cfd9e8469d0e4fb e2a709e1e8c34a4ed15a7fe6f582edad09860bcd M	plugins.txt

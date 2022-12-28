@@ -1,0 +1,23 @@
+commit 270a9798afb98498a9d12e377d895c8a4f16ed52
+tree 9823f46af6dba1068b0d73b5eb4be09605d2613b
+parent adbf5a98c6fdce6d24642031cf8f7d4400f5638f
+author Gabriel Cohen <gavrielcohend@gmail.com> 2022-12-28 11:47:53 +0200
+committer GitHub <noreply@github.com> 2022-12-28 11:47:53 +0200
+
+    tiny testerinio (#3)
+    
+    Co-authored-by: Gabriel Cohen <gabrielcohen@Gabriels-MacBook-Pro.local>
+
+:100644 100644 2eb14af5cab21dc98cd54565edfe1dd01d160ada 45fc2e92c420f9d76442dca9b7b5816b1f591b55 M	README.md
+commit adbf5a98c6fdce6d24642031cf8f7d4400f5638f
+tree 2bd2af0ee285dda9dbbca6742672659efc9b8784
+parent 9189ccb611368392e8f3ffac8e34c64719dd60ff
+author Gabriel Cohen <gavrielcohend@gmail.com> 2022-12-28 11:14:21 +0200
+committer GitHub <noreply@github.com> 2022-12-28 11:14:21 +0200
+
+    add python script (#2)
+    
+    Co-authored-by: Gabriel Cohen <gabrielcohen@Gabriels-MacBook-Pro.local>
+
+:100644 100644 ae199bce6361c40e6e57b219db8e824798d4aebf 2eb14af5cab21dc98cd54565edfe1dd01d160ada M	README.md
+:000000 100644 0000000000000000000000000000000000000000 fcb627447f4c37f0e4f7bc6209d86a412dfa09b8 A	main.py
