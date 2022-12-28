@@ -1,17 +1,20 @@
 ## curly-octo-potato
 ### Install Requirements
 ```
-brew install ngrok/ngrok/ngrok
+#brew install ngrok/ngrok/ngrok
+brew install node
+npm install -g localtunnel
 ```
 ### Configure Requirements
-add authtoken to ngrok account.
+#add authtoken to ngrok account.
 ```
-https://dashboard.ngrok.com/get-started/setup
+#https://dashboard.ngrok.com/get-started/setup
 ```
 ### How to run
 ```
 docker-compose up -d
-makefile with ngrok ??
+lt --port 8080 --subdomain gabriel-aurora-jenkins-720sxb
+makefile with localtunnel ??
 ```
 ### Jenkins user and pass
 ```
