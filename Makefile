@@ -11,7 +11,7 @@ clean:
 start-local-tunnel:
 	lt --port 8080 --subdomain gabriel-aurora-jenkins-720sxb
 
-create-jenkins-casc-image:
+build:
 	docker build -t jenkins:jcasc .
 
 run-on-basic-container:
