@@ -19,4 +19,7 @@ run-on-basic-container:
 
 update-jenkins-image:
 	@echo "Updating jenkins image..."
+	
+update-jobs:
+	docker cp jenkins:/var/jenkins_home/jobs .
 
