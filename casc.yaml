@@ -29,6 +29,7 @@ jenkins:
       enableCaptcha: false
       users:
       - id: "admin"
+        password: admin  # ${NAME}
         name: "Admin"
         properties:
         - "apiToken"
@@ -37,6 +38,7 @@ jenkins:
         - preferredProvider:
             providerId: "default"
       - id: "guest"
+        password: guestisking2
         name: "Guest"
         properties:
         - "apiToken"
