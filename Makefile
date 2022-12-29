@@ -17,7 +17,7 @@ delete-docker-image:
 
 
 start-local-tunnel:
-	lt --port 8080 --subdomain gabriel-aurora-jenkins-720sxb
+	node_modules/localtunnel/bin/lt.js --port 8080 --subdomain gabriel-aurora-jenkins-720sxb
 
 build:
 	docker build -t jenkins:jcasc .

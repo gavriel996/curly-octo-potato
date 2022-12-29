@@ -2,7 +2,7 @@
 ### Install Requirements
 ```
 brew install node
-npm install -g localtunnel
+npm install . localtunnel
 ```
 ### Configure Requirements
 ```
