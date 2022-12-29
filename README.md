@@ -11,7 +11,7 @@ npm install -g localtunnel
 ```
 make full
 ```
-stop but don't delete the image: 
+stop but don't delete the image:
 ```
 make stop
 ```
