@@ -6,6 +6,7 @@ npm install -g localtunnel
 ```
 ### Configure Requirements
 ```
+Nothing
 ```
 ### How to operate
 ```
