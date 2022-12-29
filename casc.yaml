@@ -29,7 +29,7 @@ jenkins:
       enableCaptcha: false
       users:
       - id: "admin"
-        password: admin  # ${NAME}
+        password: ${JENKINS_ADMIN_PASSWORD}  # Taken from .env
         name: "Admin"
         properties:
         - "apiToken"

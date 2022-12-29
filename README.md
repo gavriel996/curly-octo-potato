@@ -1,23 +1,24 @@
 ## curly-octo-potato
 ### Install Requirements
 ```
-#brew install ngrok/ngrok/ngrok
 brew install node
 npm install -g localtunnel
 ```
 ### Configure Requirements
-#add authtoken to ngrok account.
 ```
-#https://dashboard.ngrok.com/get-started/setup
 ```
-### How to run
+### How to operate
 ```
-docker-compose up -d
-lt --port 8080 --subdomain gabriel-aurora-jenkins-720sxb
-makefile with localtunnel ??
+make full
 ```
+stop but don't delete the image: ```make stop```
+stop and clean everything: ```make clean```
 ### Jenkins user and pass
 ```
-Username: guest
-Pass: guestisking2
+Username: admin
+Pass: Set from .env file
 ```
+### Common problems in installation
+If you can't run make and get ```invalid active developer path, missing xcrun```
+```xcode-select --install```
+
