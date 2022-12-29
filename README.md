@@ -19,6 +19,11 @@ stop and clean everything:
 ```
 make clean
 ```
+want to save your jobs after changing something:
+```
+make update-jobs
+```
+``` Push to repo after to keep the changes ```
 ### Jenkins user and pass
 ```
 Username: admin
