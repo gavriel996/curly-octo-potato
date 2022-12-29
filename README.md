@@ -11,8 +11,14 @@ npm install -g localtunnel
 ```
 make full
 ```
-stop but don't delete the image: ```make stop```
-stop and clean everything: ```make clean```
+stop but don't delete the image: 
+```
+make stop
+```
+stop and clean everything: 
+```
+make clean
+```
 ### Jenkins user and pass
 ```
 Username: admin
