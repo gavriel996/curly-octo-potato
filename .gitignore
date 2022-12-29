@@ -1,1 +1,4 @@
 *.Dockerfile.swp
+build/*.log
+jobs/*/nextBuildNumber
+jobs/*/builds
