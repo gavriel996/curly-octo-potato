@@ -2,3 +2,4 @@
 build/*.log
 jobs/*/nextBuildNumber
 jobs/*/builds
+node_modules
