@@ -1,3 +1,5 @@
+.PHONY: start full stop clean build start-docker-compose delete-docker-image start-local-tunnel update-jobs run-on-basic-container-test
+
 start: start-docker-compose start-local-tunnel
 
 full: build start-docker-compose start-local-tunnel
@@ -5,14 +7,14 @@ full: build start-docker-compose start-local-tunnel
 start-docker-compose:
 	docker-compose up -d
 
+clean: stop delete-docker-image
+
 stop:
-	@echo "Cleaning up..."
 	docker-compose down
 
-clean:
-	@echo "Cleaning up..."
-	stop
+delete-docker-image:
 	docker rmi jenkins:jcasc
+
 
 start-local-tunnel:
 	lt --port 8080 --subdomain gabriel-aurora-jenkins-720sxb
