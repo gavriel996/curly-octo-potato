@@ -1,11 +1,17 @@
 start: start-docker-compose start-local-tunnel
 
+full: build start-docker-compose start-local-tunnel
+
 start-docker-compose:
 	docker-compose up -d
 
-clean:
+stop:
 	@echo "Cleaning up..."
 	docker-compose down
+
+clean:
+	@echo "Cleaning up..."
+	stop
 	docker rmi jenkins:jcasc
 
 start-local-tunnel:
@@ -14,12 +20,10 @@ start-local-tunnel:
 build:
 	docker build -t jenkins:jcasc .
 
-run-on-basic-container:
-	docker run --name jenkins --rm -p 8080:8080 --env JENKINS_ADMIN_ID=admin --env JENKINS_ADMIN_PASSWORD=admin jenkins:jcasc
-
-update-jenkins-image:
-	@echo "Updating jenkins image..."
+run-on-basic-container-test:
+	docker run --name jenkins --rm -p 8080:8080 jenkins:jcasc
 	
 update-jobs:
-	docker cp jenkins:/var/jenkins_home/jobs .
+	rm -rf jobs
+	docker cp jenkins-jcasc:/var/jenkins_home/jobs .
 
